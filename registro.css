@@ -1,0 +1,58 @@
+body {
+    font-family: 'Overpass', sans-serif;
+    font-weight: normal;
+    background-image: url(img/cowboys.jpg);
+  }
+  
+  .form-register {
+    width: 400px;
+    background: #3282b8;
+    margin-left: 36%;
+    margin-top: 8%;
+    padding-top: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+    color:#bbe1fa;
+    text-align: center;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #E4E4E4;
+    font-size: 18px;
+    color: black;
+  }
+  
+  .form-register p {
+    text-align: center;
+    font-size: 18px;
+    
+  }
+  
+  .form-register a {
+    color:#bbe1fa;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color:#bbe1fa;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    background: #3282b8;
+    border: none;
+    color:#bbe1fa;
+    font-size: 16px;
+  }

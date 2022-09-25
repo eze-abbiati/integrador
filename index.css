@@ -1,0 +1,161 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 33vh;
+    background-color: grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url(img/fuego.jpg);
+}
+
+.list-nav {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+      
+}
+
+.visa{
+    display: flex;
+    justify-content: end;
+}
+
+.fondo {
+    display: flex;
+    width: 100%
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightslategray;
+    font-family: 'Poppins', sans-serif;
+    font-size: x-large;
+    padding-left: 50px;
+}
+
+.section-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    
+}
+
+.title-info {
+    font-size: 1.5em;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: lightslategray;
+   
+}
+
+.container-fotos {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgcap {
+    padding-top: 20%;
+
+}
+
+.container-fotos img {
+    border-radius: 10%;
+    margin-top: 30px;
+    border-style: solid;
+    background-color: grey;
+}
+
+.boton {
+    width: fit-content;
+    color: lightgray;
+    font-size: 1em;
+    margin-top: 25px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: dotted;
+    border-style: double;
+    border-color: black;
+    border-width: 10px;
+    box-shadow: 0px 2px 32px 3px rgba(0,0,0,1);
+    -webkit-box-shadow: 0px 2px 32px 3px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 2px 32px 3px rgba(0,0,0,1);
+}
+
+.bn6 {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: #232423;
+    padding: 0.3em 1.2em;
+    border-radius: 30px;
+    font-size: 1.3rem;
+    font-weight: 550;
+    color: #ffffff;
+    background-size: 100% 100%;
+    box-shadow: 0 0 0 4px #232423 inset;
+  }
+  
+  .bn6:hover {
+    background-image: linear-gradient(
+      55deg,
+      transparent 10%,
+      #5a5757 10% 20%,
+      transparent 20% 30%,
+      #5a5757 30% 40%,
+      transparent 40% 50%,
+      #5a5757 50% 60%,
+      transparent 60% 70%,
+      #5a5757 70% 80%,
+      transparent 80% 90%,
+      #5a5757 90% 100%
+    );
+    animation: background 3s linear infinite;
+}
+
+.contactos{
+    width: 100%;
+    background-image: url(img/estrellas.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.conteinerContactos{
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: white;
+}
+
+.conteinericonos{
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    width: 50%;
+    gap: 20px;
+}   
+
+
+
+
+
